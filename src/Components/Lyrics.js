@@ -79,6 +79,7 @@ export default function Lyrics() {
         <form id="form">
           <input
             type="text"
+autocomplete="off"
             id="search"
             placeholder="Enter artist or song name..."
           />

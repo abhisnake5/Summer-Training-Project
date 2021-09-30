@@ -68,6 +68,7 @@ export default function Movies() {
         <form id="form">
           <input
             type="text"
+autocomplete="off"
             placeholder="Search..."
             id="search"
             className="search"
