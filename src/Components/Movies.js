@@ -57,7 +57,7 @@ export default function Movies() {
       const searchTerm = search.current.value;
       if (searchTerm && searchTerm !== "") {
         getMovies(SEARCH_API + searchTerm);
-        search.value = "";
+        search.current.value = "";
       } else window.history.go(0);
     });
   }
